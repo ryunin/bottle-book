@@ -17,3 +17,5 @@ if __name__ == '__main__':
     bottle.run(app=app_sess, host='0.0.0.0',port=8889, reloader=True, debug=True)
 else:#以下を追加する
     application = app_sess
+
+
